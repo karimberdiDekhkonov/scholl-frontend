@@ -1,0 +1,44 @@
+body{
+    min-height: 100vh;
+}
+#sidebar{
+    width: 260px;
+    background-color: #000b67;
+    background: linear-gradient( to right top, #000b67, #2c6f67);
+    color: white;
+    font-weight: bold;
+    transition: 0.9s;
+}
+.hide{
+    display: none;
+}
+
+#rightside{
+    flex: 1;
+}
+header{
+    background-color: white;
+}
+.content{
+    background-color: #eeeeee;
+    height: calc(100% - 54px);
+}
+
+#sidebar .list-group{
+    border-radius: 0 !important;
+}
+#sidebar .list-group-item{
+    border-radius: 10px !important;
+    margin-bottom: 10px;
+    background-color: #211f58;
+    color: rgb(225, 225, 225);
+}
+#sidebar  .active{
+    background-color: #1628c9;
+    border: none;
+}
+
+.decoration{
+    text-decoration: none;
+    font-size: large
+}
